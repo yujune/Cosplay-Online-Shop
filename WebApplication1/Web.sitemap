@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Create Account"  description="Create Account">
+    <siteMapNode url="~/login2.aspx" title="Customer Sign In"  description="Sign In" />
+    <siteMapNode url="~/login1.aspx" title="Cosplayer Sign In"  description="Sign In" />
+    <siteMapNode url="~/Signup.aspx" title="Customer Sign Up "  description="Sign Up" />
+    <siteMapNode url="~/signupcos.aspx" title="Cosplayer Sign Up"  description="Cosplayer Sign Up" />
+    
+  </siteMapNode>
+</siteMap>

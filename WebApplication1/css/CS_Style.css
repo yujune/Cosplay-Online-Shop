@@ -1,0 +1,127 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+}
+
+#content {
+    padding:0px 0% 0px 0%;
+    
+}
+
+#topPage {
+    margin: 0px 5% 15px 5%;
+    width: 90%;
+    height: 350px;
+}
+
+#poster1 a {
+    opacity: 1.0;
+}
+
+#poster1 a:hover {
+    opacity:0.8;
+}
+
+.poster2 a {
+    opacity: 1.0;
+}
+
+.poster2 a:hover{
+    opacity:0.8;
+}
+
+.poster:hover {
+    opacity: 0.8;
+}
+
+.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.buttonDesign {
+    padding: 16px 32px;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+    .buttonDesign:hover {
+        background-color: #66B3FF;
+        color: white;
+        border: 2px solid #66B3FF;
+    }
+
+.auto-style17 {
+    text-align: center;
+    height: 100%
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.itemType1 {
+    width:100%;
+    
+}
+
+.image_itemType1 {
+    width: 80%;
+    margin: 0px 10% 0px 10%;
+    float: left;
+}
+
+.row_itemType1 {
+    width: 8%;
+}
+
+.line1_itemType1 a:hover {
+    color: cornflowerblue;
+}
+
+.itemType2 {
+    width: 100%;
+}
+
+.row_itemType2 {
+    width: 5%;
+}
+
+.image_itemType2 {
+    width: 80%;
+    margin: 0px 10% 0px 10%;
+    float: left;
+}
+
+.line1_itemType2 a:hover{
+    color: cornflowerblue;
+}
+
+.image_itemType1 {
+    border: 1px solid white;
+}
+
+.image_itemType1:hover {
+    opacity: 0.8;
+    border: 1px solid gray;
+}
+
+.image_itemType2 {
+    border: 1px solid white;
+}
+
+.image_itemType2:hover {
+    opacity: 0.8;
+    border: 1px solid silver;
+}
+

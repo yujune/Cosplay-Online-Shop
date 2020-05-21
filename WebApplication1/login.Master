@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="login.master.cs" Inherits="WebApplication1.login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title>
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" Visible="false"></asp:ContentPlaceHolder>
+</title>
+	<style type="text/css">
+        html, body {
+	        margin: 0;
+	        padding: 0;
+	    }
+
+	    html {
+	        height: 100%
+	    }
+
+	    body {
+	        min-height: 100%
+	    }
+
+		ul {
+			
+			list-style-type:none;
+			background-color:#66b3ff;
+		}
+		ul li {
+			
+			background-color:#66b3ff;
+			display:inline-block;
+			padding:20px 10px 20px 10px;
+			text-align:center;
+			margin-top: 0px;
+		}
+		 ul li :hover {
+			     background-color: #e6f2ff;
+			}
+		.dropdown {
+		    background-image:url('App_Themes\icons8-shopping-cart-24.png');
+			display:inline-block;
+
+		}
+		 .dropdown li {
+				display:none;
+				text-align:left;
+			}
+		 .dropdown:hover ul li {
+				display:block;
+				text-align:center;
+			    position:fixed;
+			
+			}
+
+
+		.aa {
+            margin-top:0;
+			padding-left:700px;
+		
+			 
+		
+			}
+		.ab {
+	
+		}
+		input {
+			width:500px;
+			
+            
+		}
+	    .image {
+            display:block;
+            height:50px;
+	    }
+
+
+
+	</style>
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server" Visible="false"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="padding:0px;margin-top:0;">
+		
+		<ul style="margin-top:0;">
+			<li >
+				
+				<a href="Homapagesignin.aspx"><asp:Image ID="Image1"  ImageUrl="~\App_Themes\logo.png" runat="server" CssClass="image"/></a>
+			</li>
+
+			<li class="aa">
+				<asp:Menu ID="Menu3" runat="server" Orientation="Horizontal" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="Homepage.aspx" ImageUrl="~\App_Themes\icons8-search-24.png"  ></asp:MenuItem>
+					
+			    </Items>
+				</asp:Menu>
+
+
+			</li>
+			<li class="ab">
+				<asp:Menu ID="Menu4" runat="server" Orientation="Horizontal" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="Wishlist.aspx" ImageUrl="~\App_Themes\icons8-wish-list-24.png"  ></asp:MenuItem>
+
+			    </Items>
+				</asp:Menu>
+
+
+			</li>
+		    <li >
+				<asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="CartPage.aspx" ImageUrl="~\App_Themes\icons8-shopping-cart-24.png"  ></asp:MenuItem>
+
+			    </Items>
+				</asp:Menu>
+		    </li>
+			   <li>
+				<asp:Menu ID="Menu5" runat="server" Orientation="Horizontal" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="CosplayerGallery1.aspx" ImageUrl="~\App_Themes\icons8-photo-gallery-24.png" ></asp:MenuItem>
+
+			    </Items>
+				</asp:Menu>
+
+
+			</li>
+
+
+
+
+			<li>
+	            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource2" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+				<DynamicHoverStyle BackColor="#e6f2ff" ForeColor="Black" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#66b3ff" />
+                <DynamicSelectedStyle BackColor="#66b3ff" ForeColor="Black"/>
+
+                <StaticHoverStyle BackColor="#e6f2ff" ForeColor="Black" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticMenuStyle BackColor="#66b3ff"  />
+				<StaticSelectedStyle BackColor="#66b3ff" ForeColor="Black" />
+
+			</asp:Menu>
+			<asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" SiteMapProvider="SiteMapDataSource2" />
+         <%--<asp:SiteMapPath ID="SiteMapPath1"  runat="server" PathSeparator=" > " RenderCurrentNodeAsLink="false">
+</asp:SiteMapPath>--%>
+
+
+    
+
+			</li>
+
+
+		</ul>
+      
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+
+</body>
+</html>

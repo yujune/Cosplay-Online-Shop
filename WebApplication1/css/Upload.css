@@ -1,0 +1,126 @@
+﻿
+.auto-style3 {
+    width: 920px;
+}
+
+.auto-style6 {
+    text-align: center;
+}
+
+.auto-style7 {
+    text-align: center;
+}
+
+.auto-style8 {
+    width: 920px;
+    text-align: right;
+}
+
+.auto-style9 {
+    width: 920px;
+    text-align: right;
+    height: 29px;
+}
+
+.auto-style10 {
+    width:100%;
+}
+
+.auto-style11 {
+    width: 529px;
+}
+
+.auto-style16 {
+    width: 51px;
+}
+
+.auto-style18 {
+    width: 920px;
+    text-align: right;
+    height: 28px;
+}
+
+.auto-style19 {
+    width: 529px;
+    height: 28px;
+}
+
+.auto-style20 {
+    width: 920px;
+    height: 33px;
+}
+
+.auto-style21 {
+    width: 529px;
+    height: 33px;
+}
+
+.auto-style23 {
+    width: 100%;
+    height: 801px;
+}
+
+.textStyle {
+    font-family: Arial
+}
+
+.buttonDesign {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    cursor: pointer;
+    background-color: white;
+    height: 50px
+}
+
+.buttonUpload {
+    border: 2px solid #66B3FF;
+    color: #66B3FF;
+    width:35%
+    
+}
+
+.buttonReset {
+    border: 2px solid #f44336;
+    color: #f44336;
+}
+
+    .buttonReset:hover {
+        background-color: #f44336;
+        color: white;
+    }
+
+.buttonUpload:hover {
+    background-color: #66B3FF;
+    color: white;
+}
+
+.auto-style24 {
+    text-align: left;
+    height: 28px;
+    width: 529px;
+}
+
+table tr td{
+    height:20px
+}
+
+.buttonSize{
+    width:10%
+}
+
+.auto-style27{
+    text-align:center
+}
+
+.tdStyle{
+    height:30px
+}
+
+.textStyle{
+    height:inherit
+}

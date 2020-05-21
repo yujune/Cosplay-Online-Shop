@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/login.Master" AutoEventWireup="true" CodeBehind="CosplayerShop1.Master.cs" Inherits="Costume.CosplayerShop" %>
+
+<asp:Content ID="Content" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <link href="css/YU.css" type="text/css" rel="stylesheet" />
+     
+
+        <div style="text-align:center">
+           <div style="margin: 2% 5%; text-align:left;" >
+            <table class="auto-style1" style="border-bottom:2px solid #eeeeee; background-color:#FBFBFB;">
+                <tr >
+                    <td rowspan="4" style="background-image:url('ProductPicture/shop.jpg');padding:15px" class="auto-style15">
+                       
+                        <asp:Image ID="Image1" runat="server" Width="25%" ImageUrl="~/ProductPicture/profile.png" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" class="imageStyle"/>
+                        
+                        <br />
+                    </td>
+                    <td >
+                        <asp:Label ID="Label1" runat="server" Text="Shope Name:" class="information"></asp:Label> Huawei
+                    </td>
+                    <td >
+                        <asp:Label ID="Label3" runat="server" Text="Ratings: 5/5" class="information"></asp:Label>
+                    </td>
+                </tr>
+                <tr >
+                    <td >
+                        <asp:Label ID="Label6" runat="server" Text="Products: 54" class="information"></asp:Label>
+                    </td>
+                    <td >
+                        <asp:Label ID="Label7" runat="server" Text="Emails: yujune@gmail.com" class="information"></asp:Label>
+                    </td>
+                </tr>
+                <tr >
+                    <td class="auto-style21" >
+                        <asp:Label ID="Label2" runat="server" Text="Followers: 1000" class="information"></asp:Label>
+                    </td>
+                    <td class="auto-style21" >
+                        <asp:Label ID="Label4" runat="server" Text="Joined since: 24 June 2019" class="information"></asp:Label>
+                    </td>
+                </tr>
+                <tr >
+                    <td >
+                        <asp:Label ID="Label8" runat="server" Text="Years of Experience: 2" class="information"></asp:Label>
+                    </td>
+                    <td >
+                        
+                        <asp:Button ID="Button1" runat="server" Text="Follow" OnClick="Button1_Click"  class="buttonStyle buttonStyle:hover" Width="30%" OnClientClick="javascript:alert('Followed Successfully!')"/>
+                        
+                    </td>
+                </tr>
+
+                
+                
+            </table>
+</div>
+    </div>
+       
+                <table class="auto-style1">
+            <tr>
+                <td class="auto-style22" colspan="2" >
+                    
+                    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+        </table>
+           
+        
+        </asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+</asp:Content><asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+
+    <style type="text/css">
+        
+
+      
+        .auto-style21 {
+            height: 29px;
+        }
+        
+
+      
+        </style>
+
+</asp:Content>
+   

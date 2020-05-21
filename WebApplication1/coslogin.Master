@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="coslogin.master.cs" Inherits="WebApplication1.coslogin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title>
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" Visible="false"></asp:ContentPlaceHolder>
+</title>
+	<style type="text/css">
+        html, body {
+	        margin: 0;
+	        padding: 0;
+	    }
+
+	    html {
+	        height: 100%
+	    }
+
+	    body {
+	        min-height: 100%
+	    }
+
+		.pp {
+			margin-top:0;
+			list-style-type:none;
+			background-color:#66b3ff;
+			
+		}
+		.pp li {
+
+			background-color:#66b3ff;
+			display:inline-block;
+			padding:10px;
+			text-align:center;
+			margin-top: 0px;
+		
+		}
+		 .pp li :hover {
+			     background-color: #e6f2ff;
+			}
+		.dropdown {
+		    background-image:url('App_Themes\icons8-shopping-cart-24.png');
+			display:inline-block;
+
+		}
+		 .dropdown li {
+				display:none;
+				text-align:left;
+			}
+		 .dropdown:hover ul li {
+				display:block;
+				text-align:center;
+			    position:fixed;
+			
+			}
+
+
+	    .pp .qq {
+	        padding-left: 750px;
+	    }
+			
+
+		.image {
+			display:block;
+			height:50px;
+		}
+
+
+	</style>
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server" Visible="false"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+		
+		<ul class="pp">
+			<li >
+				
+				<a href="CosplayerGallery.aspx"><asp:Image ID="Image1" ImageUrl="~\App_Themes\logo.png" runat="server" CssClass="image"/></a>
+			</li>
+
+			<li class="qq">
+				<asp:Menu ID="Menu3" runat="server" Orientation="Horizontal" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="Homepage.aspx" ImageUrl="~\App_Themes\icons8-search-24.png"  ></asp:MenuItem>
+					
+			    </Items>
+				</asp:Menu>
+
+
+			</li>
+
+			   <li>
+				<asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" OnMenuItemClick="Menu2_MenuItemClick" >
+
+			    <Items>
+					<asp:MenuItem navigateurl="CosplayerGallery.aspx" ImageUrl="~\App_Themes\icons8-photo-gallery-24.png"  ></asp:MenuItem>
+
+			    </Items>
+				</asp:Menu></li>
+			
+				
+
+			<li>
+	            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource3" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+				<DynamicHoverStyle BackColor="#e6f2ff" ForeColor="Black" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#66b3ff" />
+                <DynamicSelectedStyle BackColor="#66b3ff" ForeColor="Black"/>
+
+                <StaticHoverStyle BackColor="#e6f2ff" ForeColor="Black" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticMenuStyle BackColor="#66b3ff"  />
+				<StaticSelectedStyle BackColor="#66b3ff" ForeColor="Black" />
+
+			</asp:Menu>
+			<asp:SiteMapDataSource ID="SiteMapDataSource3" runat="server" SiteMapProvider="SiteMapDataSource3" />
+         <%--<asp:SiteMapPath ID="SiteMapPath1"  runat="server" PathSeparator=" > " RenderCurrentNodeAsLink="false">
+</asp:SiteMapPath>--%>
+
+
+    
+
+			</li>
+
+
+		</ul>
+      
+		
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+
+</body>
+</html>

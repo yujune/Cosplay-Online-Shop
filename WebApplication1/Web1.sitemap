@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/profile.aspx" title="Profile"  description="Profile">
+      <siteMapNode url="~/PurchaseHistory.aspx" title="Purchase History"  description="Purchase History" />
+    <siteMapNode url="~/Homepage.aspx" title="Sign Out"  description="Sign Out" />
+  </siteMapNode>
+  
+</siteMap>

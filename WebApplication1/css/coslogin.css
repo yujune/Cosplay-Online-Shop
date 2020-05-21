@@ -1,0 +1,47 @@
+﻿body {
+}
+ul {
+    list-style-type: none;
+    background-color: #66b3ff;
+}
+
+    ul li {
+        background-color: #66b3ff;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+        ul li :hover {
+            background-color: #e6f2ff;
+        }
+
+.dropdown {
+    background-image: url('App_Themes\icons8-shopping-cart-24.png');
+    display: inline-block;
+}
+
+    .dropdown li {
+        display: none;
+        text-align: left;
+    }
+
+    .dropdown:hover ul li {
+        display: block;
+        text-align: center;
+        position: fixed;
+    }
+
+
+.aa {
+    padding-left: 200px;
+}
+
+.ab {
+    padding-left: 100px;
+}
+
+input {
+    width: 500px;
+}

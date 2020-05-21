@@ -1,0 +1,34 @@
+﻿ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+}
+
+li  {
+
+	display:inline-block;
+}
+table {
+	text-align:center;
+
+	
+}
+
+tr:hover {
+	background-color:black;
+}
+td:hover::after,
+th:hover::after {
+	content: "";
+	position: absolute;
+	background-color: #ffa;
+	left: 0;
+	top: -5000px;
+	height: 10000px;
+	width: 100%;
+	z-index: -1;
+}
+.a {
+    color:aqua;
+}
