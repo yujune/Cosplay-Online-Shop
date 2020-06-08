@@ -1,5 +1,6 @@
 # Cosplay-Online-Shop
-This is a simple cosplay online shop which let customers to browse and buy the cosplay costume and also allow cosplayer to upload their costume to sell.
+This is a simple cosplay online shop which is written in ASP.NET and the purpose of this project is to allow customer to shop for their favourite cosplay costume from cosplayer.
+
 ## Sample User Interface
 ### Home Page
 ![home](https://github.com/yujune/Cosplay-Online-Shop/blob/master/screenshots/home.gif)
